@@ -2,7 +2,7 @@ import socket
 import time
 
 # Client settings
-UDP_IP = "router00"  # Replace with the actual IP of router00
+UDP_IP = "10.1.1.1"  # Replace with the actual IP of router00
 UDP_PORT = 55055
 
 # Create a UDP socket
