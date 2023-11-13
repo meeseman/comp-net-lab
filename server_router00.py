@@ -19,8 +19,7 @@ while True:
     data, addr = server_socket.recvfrom(1024)
 
     # Process the request (compute result of the function)
-    result = time.time()  # Replace this with your actual function
-    result = math.sin(2 * math.pi * parameter)
+    result = math.sin(2 * math.pi * time.time())
 
     # Print server information
     print(f"Received request from {addr} at {time.time()}")
