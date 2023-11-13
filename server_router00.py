@@ -3,7 +3,7 @@ import time
 import math
 
 # Server settings
-UDP_IP = "10.1.1.254"
+UDP_IP = "0.0.0.0"
 UDP_PORT = 55055
 
 # Create a UDP socket
