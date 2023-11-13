@@ -3,7 +3,7 @@ import time
 import math
 
 # Server settings
-UDP_IP = "0.0.0.0"
+UDP_IP = "router00" 
 UDP_PORT = 55055
 
 # Create a UDP socket
