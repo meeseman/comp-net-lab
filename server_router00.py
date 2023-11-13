@@ -1,9 +1,8 @@
 import socket
 import time
-import math
 
 # Server settings
-UDP_IP = "router00" 
+UDP_IP = "0.0.0.0"
 UDP_PORT = 55055
 
 # Create a UDP socket
@@ -19,7 +18,8 @@ while True:
     data, addr = server_socket.recvfrom(1024)
 
     # Process the request (compute result of the function)
-    result = math.sin(2 * math.pi * time.time())
+    result = time.time()  # Replace this with your actual function
+    result = math.sin(2 * math.pi * parameter)
 
     # Print server information
     print(f"Received request from {addr} at {time.time()}")
